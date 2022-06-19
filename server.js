@@ -37,6 +37,11 @@ app.get("/:code", async (req, res) => {
   }
 });
 
+// just to verify that we are able to hit base endpoint
+app.get("/", (req, res) => {
+  console.log("It's working 👍");
+});
+
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
