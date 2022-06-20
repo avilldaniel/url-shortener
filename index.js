@@ -27,9 +27,3 @@ verifyForm.addEventListener('submit', async e => {
   link.setAttribute('href', res.data);
   if(link.style.display === "none") link.style.display = "block";
 })
-
-// fetch shortening-icon.png from backend
-// const path = require("path");
-// const dir = path.join(__dirname, "public");
-// app.use(express.static(dir));
-// https://url-shortener-node-express.herokuapp.com/shortening-icon.png
