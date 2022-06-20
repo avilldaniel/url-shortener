@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="/index.3a01df49.css">
+    <script defer="" src="/index.3d214d75.js"></script>
+    <title>URL shortener</title>
+  </head>
+  <body>
+    <div class="img-cont">
+      URL shortener
+      <img src="https://url-shortener-node-express.herokuapp.com/taxi.png" alt="short-icon">
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="fullURL">
+          <form id="paste-form">
+            <label for="paste-url">Paste a URL</label>
+            <input type="text" id="paste-url">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="code" style="display: none">code</div>
+
+        <div class="verifyURL">
+          <form id="verify-form">
+            <label for="verify-URL">Verify code</label>
+            <div id="verify-input">
+              <input type="text" id="verify-URL">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+          <a href="" style="display: none" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- AXIOS IMPORT -->
+    <script src="/index.ad8217d2.js"></script>
+  </body>
+</html>
