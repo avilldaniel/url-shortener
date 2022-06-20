@@ -1,3 +1,5 @@
+// API_URL = https://url-shortener-node-express.herokuapp.com
+
 const axios = require("axios");
 const cors = require("cors");
 const path = require("path");
@@ -8,7 +10,11 @@ const app = express();
 const port = process.env.PORT || 5000;
 const api = "https://api.shrtco.de/v2";
 
-app.use(cors());
+// whitelisted client domains
+const corsOptions = {
+  origin: ['http://127.0.0.1:5500', 'https://url-shortener-node-express.herokuapp.com']
+}
+app.use(cors(corsOptions));
 
 const dir = path.join(__dirname, "public");
 app.use(express.static(dir));

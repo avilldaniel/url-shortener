@@ -38,6 +38,14 @@ a {
   flex-direction: column;
 }
 
+.fullURL button {
+  margin-left: 7px;
+  padding: 11px 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
 .fullURL {
   display: flex;
   justify-content: center;
