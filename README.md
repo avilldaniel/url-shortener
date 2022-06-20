@@ -4,7 +4,7 @@
 
 A simple URL shortening app. Paste or type in any URL to generate a minimized version of the link; you may also verify a URL's shortened code.
 
-<gif>
+![url-shortening-demo](https://user-images.githubusercontent.com/90011911/174633841-67a0aa53-bc1f-41ce-a1c8-a9e9d9b782f8.gif)
 
 ## Tech:
 
