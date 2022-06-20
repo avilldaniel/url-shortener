@@ -12,7 +12,7 @@ const api = "https://api.shrtco.de/v2";
 
 // whitelisted client domains
 const corsOptions = {
-  origin: ['http://127.0.0.1:5500', 'https://url-shortener-avilldaniel.vercel.app']
+  origin: ['http://127.0.0.1:5500', 'https://url-shortener-node-express.herokuapp.com', 'https://url-shortener-avilldaniel.vercel.app']
 }
 app.use(cors(corsOptions));
 
