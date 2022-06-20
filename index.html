@@ -10,6 +10,10 @@
     <title>URL shortener</title>
   </head>
   <body>
+    <img
+      src="https://url-shortener-node-express.herokuapp.com/taxi.png"
+      alt="short-icon"
+    />
     <div class="container">
       <div class="content">
         <div class="fullURL">
@@ -19,14 +23,18 @@
             <button type="submit">Submit</button>
           </form>
         </div>
-        <div class="code">code</div>
-        <!-- <div class="verifyURL">
-          <form action="">
-            <label for="">Verify code</label>
-            <input type="text" name="" id="" />
+        <div class="code" style="display: none">code</div>
+
+        <div class="verifyURL">
+          <form id="verify-form">
+            <label for="verify-URL">Verify code</label>
+            <div id="verify-input">
+              <input type="text" id="verify-URL" />
+              <button type="submit">Submit</button>
+            </div>
           </form>
-          <a href="http://">clickable link</a>
-        </div> -->
+          <a href="" style="display: none" target="_blank"></a>
+        </div>
       </div>
     </div>
 
